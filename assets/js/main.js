@@ -1,7 +1,7 @@
 
 
 //Visualizzare in pagina 5 numeri casuali..
-for (let index = 0; index < 5; index++) {
+/* for (let index = 0; index < 5; index++) {
 
     const randNumber = Math.floor(Math.random() * 5) 
 
@@ -9,11 +9,11 @@ for (let index = 0; index < 5; index++) {
 
     document.body.innerHTML += randNumber;
 }
-
+ */
 //Da lì parte un timer di 30 secondi
 
 setTimeout(function () {
-    
+
     for (let index = 0; index < 5; index++) {
 
         const randNumber = Math.floor(Math.random() * 5) 
